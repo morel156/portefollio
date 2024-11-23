@@ -1,0 +1,106 @@
+p{
+    color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    padding-top: 15px;
+}
+.home{
+    position: absolute;
+    margin-top:0px ;
+    font-weight: bolder;
+    color: black;
+}
+header{
+    border-bottom: 3px solid black;
+}
+.h11{
+    text-align: center;
+    font-size: 90px;
+}
+.nom{
+    text-align: center;
+    letter-spacing: 10px;
+}
+.position{
+    position:absolute;
+    margin-left: 1170px;
+    margin-top:-45px ;
+    font-weight: bold;
+    color: black;
+}
+footer{
+    border-top: 3px solid black;
+}
+.pied{
+    font-weight: bold;
+    color: black;
+}
+.photo{
+    background-color: antiquewhite;
+}
+span{
+    margin-left: 1018px;
+    position: absolute;
+    margin-top: -20px;
+}
+.passion{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.para{
+    font-weight: bold;
+    text-align: justify;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius:15px ;
+}
+input{
+    background-color: goldenrod;
+}
+.couleur{
+    background-color:gainsboro;
+
+}
+.profil{
+    height: 180px;
+    width: 180px;
+    border: 3px solid black;
+    object-fit: cover;
+    border-radius: 55%;
+    margin-left: 480px ;
+}
+div{
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+.cadre{
+    border: 3px solid black ;
+    border-radius: 15px;
+    padding: 20px;
+}
+h3{
+    font-family:arial;
+}
+.pape{
+    margin-left: 380px; 
+}
+form{
+    margin-right:0px ;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="traitement.php">
+        <Fieldset>
+        <legend value="mon1">
+        <input type="checkbox" name="accept" id="papa" />
+        <label for="papa"> acceptez vous les confidentialité</label>
+        <br>
+        <br>
+        <h1>choix unique</h1>
+        <input type="radio" name="lili" id="lolo" value="matière"/>
+        <label for="1">matière1 </label>
+        <br>
+        <br>
+        <input type="radio" name="lili" id="lala" value="matière"/>
+        <label for="lala"> matière2</label>
+    </legend>
+</Fieldset>
+<fieldset>
+    <legend>
+        <h2>dates</h2>
+        <input type="date" name="datedenaissance" id="date"/>
+        <label for="date"> entrez votre date de naissances</label>
+        <br>
+        <br>
+        <input type="datetime" name="dateetheure" id="heure"/>
+        <label for="heure">entrez la date et heure d'arrivée</label>
+        <br>
+        <br>
+        <input type="search" name="recherche" id="lui" value="rechercher"/>
+        <label for="lui">voulez vous recherchez un truc?</label>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="submit"/>
+        <br>
+        <br>
+    </legend>
+</fieldset>
+    <fieldset>
+    <legend>
+        <h2>reinitialisation</h2>
+        <input type="reset" name="reitialiser" value="réinitialiser"/>
+        <br>
+        <br>
+        <br>
+        <h2>CHAMP DE SAISIR MULTILIGNE</h2>
+        <p>
+        <input type="textarea" name="papa" id="ooo" placeholder="entrez">
+        </p>
+    </legend>
+</fieldset>
+    </form>
+</body>
+</html>
